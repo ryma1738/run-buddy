@@ -30,29 +30,32 @@
         </header>
 
         <!--Hero/jumbotron-->
-        <section>
-            <div>
+        <section class="hero">
+            <div class="hero-form">
                 <h3>Get Started Today!</h3>
                 <p>Fill out this form and one of our trainers will schedule a consult</p>
                 <form>
-                    <label for="name">Enter Full name:</label>
-                    <input type="text" placeholder="Your Name" name="name" id="name" />
-                    <label for="email">Enter Email Address:</label>
-                    <input type="email" placeholder="Email Address" name="email" id="email" />
-                    <label for="phone">Enter a telephone number:</label>
-                    <input type="tel" placeholder="Phone Number" name="phone" id="phone" />
+                    <label for="name">Enter Full name:</label><br />
+                    <input class="hero-form-box" type="text" placeholder="Your Name" name="name" id="name" /><br />
+
+                    <label for="email">Enter Email Address:</label><br />
+                    <input class="hero-form-box" type="email" placeholder="Email Address" name="email" id="email" /><br />
+
+                    <label for="phone">Enter a telephone number:</label><br />
+                    <input class="hero-form-box" type="tel" placeholder="Phone Number" name="phone" id="phone" />
                     <p>
                         Have you worked out with a trainer before?
                         <input type="radio" name="trainer-confim" id="trainer-yes" />
                         <label for="trainer-yes">Yes</label>
+                        
                         <input type="radio" name="trainer-confim" id="trainer-no" />
                         <label for="trainer-no">No</label>
                     </p>
                     <p>
-                        <label for="old-enough">I acknowledge that I am at least 18 years of age</label>
+                        <label for="old-enough">I acknowledge that I am at least 18 years of age.</label>
                         <input type="checkbox" name="old-enough" id="old-enough" />
                     </p>
-                    ><button type="submit">Get running!</button>
+                    <button type="submit">Get running!</button>
                 </form>
             </div>
         </section>
