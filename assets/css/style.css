@@ -222,17 +222,19 @@ section {
     color: #fce138;
 }
 
-.reach-out div div  {
+.reach-out div div {
     color: white;
     text-align: left;
     float: right;
     padding: 20px;
-    font-style: normal;
-    position: relative;
-    right: 70px;
+    vertical-align: top;
     display: inline-block;
     font-size: 23px;
 }
+
+ .reach-out div div address {
+     font-style: normal;
+ }
 
 .reach-out iframe {
     float: left;
