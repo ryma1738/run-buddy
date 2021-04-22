@@ -94,6 +94,131 @@ section {
     border: none;
 }
 
+.section-title {
+    font-size: 55px;
+    color: #024e76;
+    margin-bottom: 35px;
+    padding: 0 100px 20px 100px;
+    border-bottom: 3px solid;
+    display: inline-block;
+    
+}
+
+.border-color-main {
+    border-color: #fce138;
+}
+
+.border-color-secondary {
+    border-color: #39a6b2;
+}
+
+.intro {
+    text-align: center;
+}
+
+.intro p {
+    line-height: 1.7;
+    color: #39a6b2;
+    width: 80%;
+    font-size: 20px;
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.steps {
+    background-color: #fce138;
+    text-align: center;
+}
+
+.steps h3 {
+    color: #024e76;
+    font-size: 40px;
+
+}
+
+.steps p {
+    color:#39a6b2;
+    font-size: 22px;
+    margin-bottom: 65px;
+}
+
+.steps span {
+    font-size: 30px;
+}
+
+.steps img {
+    width: 15%;
+    margin: 10px 0;
+}
+
+.trainers {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.trainers-box {
+    background-color: #024e76;
+    width: 90%;
+    height: 400px;
+    color: #fce138;
+    display: inline-block;
+    margin: 20px 0;
+    position: relative;
+}
+
+.trainers-img {
+    width: 400px;
+    margin: 0;
+    position: relative;
+}
+
+.float-r {
+    float: right;
+}
+
+.float-l {
+    float: left;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.trainers-left {
+    background-color: none;
+    text-align: left;
+    position: absolute;
+    left: 450px;
+    margin: 35px 20px;
+    float: right;
+}
+
+.trainers-right {
+    text-align: right;
+    margin: 35px 20px;
+    position: absolute;
+    right: 450px;
+    float: left;
+}
+
+.trainers h3 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.trainers h4 {
+    font-size: 30px;
+    margin-bottom: 30px;
+    font-weight: lighter;
+}
+
+.trainers p {
+    font-size: 22px;
+}
+
 footer {
     background: #fce138;
     width: 100%;
