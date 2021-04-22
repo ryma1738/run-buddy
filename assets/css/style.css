@@ -180,14 +180,6 @@ section {
     float: left;
 }
 
-.text-left {
-    text-align: left;
-}
-
-.text-right {
-    text-align: right;
-}
-
 .trainers-left {
     background-color: none;
     text-align: left;
@@ -218,6 +210,45 @@ section {
 .trainers p {
     font-size: 22px;
 }
+
+.reach-out {
+    color: #fce138;
+    background-color: #024e76;
+    text-align: center;
+    height: 650px;
+}
+
+.color-yellow {
+    color: #fce138;
+}
+
+.reach-out div div  {
+    color: white;
+    text-align: left;
+    float: right;
+    padding: 20px;
+    font-style: normal;
+    position: relative;
+    right: 70px;
+    display: inline-block;
+    font-size: 23px;
+}
+
+.reach-out iframe {
+    float: left;
+    position: absolute;
+    left: 200px;
+}
+
+.reach-out h3 {
+    font-size: 35px;
+    color: #fce138;
+}
+
+.margin-30 {
+    margin-bottom: 30px;
+}
+
 
 footer {
     background: #fce138;
