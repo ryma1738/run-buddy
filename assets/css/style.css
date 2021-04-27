@@ -167,7 +167,7 @@ section {
 }
 
 .steps img {
-    width: 100%;
+    width: 10%;
     margin: 10px 0;
 }
 
@@ -270,6 +270,10 @@ section {
 #iframe,
 #contact-info {
     float: left;
+}
+
+.contact-form {
+    
 }
 
 .reach-out h3 {
