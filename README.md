@@ -1,4 +1,4 @@
-# Run Buddy Inc.
+# Run Buddy Inc
 
 ## Purpose
 A website that offers fitness traing services.
@@ -13,4 +13,4 @@ A website that offers fitness traing services.
 ## Contribution 
 Made with ❤️ by Ryma1738
 
-### ©️2019 Run Buddy, Inc 
+
