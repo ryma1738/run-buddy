@@ -10,6 +10,14 @@ body {
     color: #39a6b2;
 }
 
+.float-r {
+    float: right;
+}
+
+.float-l {
+    float: left;
+}
+
 header {
     padding: 20px 35px;
     background-color: #39a6b2;
@@ -192,14 +200,6 @@ section {
     position: relative;
 }
 
-.float-r {
-    float: right;
-}
-
-.float-l {
-    float: left;
-}
-
 .trainers-left {
     background-color: none;
     text-align: left;
@@ -232,6 +232,7 @@ section {
     
 }
 
+/* Reach Out Section Begins */
 .reach-out {
     color: #fce138;
     background-color: #024e76;
@@ -239,21 +240,31 @@ section {
     height: 650px;
 }
 
-.color-yellow {
+.reach-out h3 {
+    font-size: 35px;
     color: #fce138;
 }
 
-.reach-out div {
-    margin: 0 auto;
+.reach-out iframe {
+    margin: 0 0 0 12%;
+    width: 400px;
+    height: 400px;
 }
-.reach-out div div {
-    color: white;
-    text-align: left;
-    padding: 20px;
-    vertical-align: top;
+
+.contact-form {
     display: inline-block;
-    font-size: 100%;
-    margin-left: 60px;
+    vertical-align: top;
+    margin: 0;
+    width: 410px;
+}
+
+.reach-out div div {
+    width: 410px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+    margin: 30px 0 0 60px;
+    color: white;
     
 }
 
@@ -261,30 +272,22 @@ section {
      font-style: normal;
  }
 
- 
-.reach-out iframe {
-    margin: 0 0 0 12%;
-    
-}
-
 #iframe,
-#contact-info {
+#contact-info,
+#contact-form {
     float: left;
 }
+/* Reach Out Section End */
 
-.contact-form {
-    
-}
-
-.reach-out h3 {
-    font-size: 35px;
-    color: #fce138;
-}
-
+/* Dominate tags start */
 .margin-30 {
     margin-bottom: 30px;
 }
 
+.color-yellow {
+    color: #fce138;
+}
+/* Dominate Tags End */
 
 footer {
     background: #fce138;
