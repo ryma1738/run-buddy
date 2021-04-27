@@ -12,3 +12,5 @@ A website that offers fitness traing services.
 
 ## Contribution 
 Made with ❤️ by Ryma1738
+
+### ©️2019 Run Buddy, Inc 
