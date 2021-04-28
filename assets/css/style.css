@@ -273,8 +273,8 @@ section {
  }
 
 #iframe,
-#contact-info,
-#contact-form {
+#contact-form,
+#contact-info {
     float: left;
 }
 /* Reach Out Section End */
