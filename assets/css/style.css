@@ -280,44 +280,62 @@ section {
 .reach-out-main {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-between;
+    text-align: left;
 }
 
-.reach-out h3 {
+.reach-out-main > * {
+    flex: 1;
+    margin: 15px;
+}
+
+.reach-out-main h3 {
     font-size: 35px;
     color: #fce138;
 }
 
-.reach-out iframe {
-    width: 400px;
-    height: 400px;
-    margin: 3.5%;
+.reach-out-main div {
+    color: white;
 }
 
 .contact-form {
-    vertical-align: top;
-    margin: 0;
-    width: 410px;
-    margin: 3.5%;
+
 }
 
-.reach-out div div {
-    width: 410px;
-    vertical-align: top;
-    text-align: left;
-    color: white;
-    margin: 3.5%;
+.contact-form input, .contact-form textarea {
+    border: 1px solid #024e76;
+    display: block;
+    padding: 7px 15px;
+    font-size: 16px;
+    color: #024e76;
+    width: 100%;
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+
+.contact-form button {
+    width: 100%;
+    border: none;
+    background: #fce138;
+    color: #024e76;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 16px;
     
 }
 
- .reach-out div div address {
+.reach-out-main iframe {
+    height: 400px;
+}
+
+ .reach-out-main div address {
      font-style: normal;
+     font-size: 16px;
  }
 
-#iframe,
+#contact-info,
 #contact-form,
-#contact-info {
+#iframe {
     float: left;
 }
 /* Reach Out Section End */
