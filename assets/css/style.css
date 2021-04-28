@@ -230,50 +230,37 @@ section {
 
 /* Meet The Trainers Section Start */
 .trainers {
-    text-align: center;
-    margin-top: 50px;
+    margin: 0 auto;
+    width: 100%;
+    line-height: 1.5;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .trainers-box {
     background-color: #024e76;
-    width: 90%;
-    height: 400px;
     color: #fce138;
-    display: inline-block;
-    margin: 20px 0;
-    position: relative;
+    margin: 20px;
+    flex: 1;
 }
 
 .trainers-img {
-    width: 400px;
-    margin: 0;
-    position: relative;
+    width: 100%;
 }
 
-.trainers-left {
+.trainers-text {
     background-color: none;
     text-align: left;
-    position: absolute;
-    left: 450px;
-    margin: 35px 20px;
-    float: right;
-}
-
-.trainers-right {
-    text-align: right;
-    margin: 35px 20px;
-    position: absolute;
-    right: 450px;
-    float: left;
+    padding: 25px;
 }
 
 .trainers h3 {
-    font-size: 40px;
-    margin-bottom: 20px;
+    font-size: 28px;
 }
 .trainers h4 {
-    font-size: 30px;
-    margin-bottom: 30px;
+    font-size: 22px;
+    margin-bottom: 15px;
     font-weight: lighter;
 }
 
