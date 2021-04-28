@@ -60,6 +60,7 @@ section {
     padding: 60px;
 }
 
+/* Hero Section Start*/
 .hero {
     background-image: url("../images/hero-bg.jpg");
     background-size: cover;
@@ -95,7 +96,6 @@ section {
     color: #024e76;
     background-color: #fce138;
     border: solid 3px #616161;
-    height: 420px;
     margin: 3.5%;
     
 
@@ -127,25 +127,34 @@ section {
     padding:10px 20px;
     border: none;
 }
+/* End Hero Section */
 
+/* Section Title Classes */
 .section-title {
     font-size: 55px;
+    width: 50%;
     color: #024e76;
-    margin-bottom: 35px;
-    padding: 0 100px 20px 100px;
+    margin: 0 auto 35px auto;
+    padding-bottom: 20px;
     border-bottom: 3px solid;
     display: inline-block;
-    
-}
-
-.border-color-main {
     border-color: #fce138;
+    
+} 
+
+.flex-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
 }
 
 .border-color-secondary {
     border-color: #39a6b2;
 }
+/* Section titles End*/
 
+/* What We Do Section Start */
 .intro {
     text-align: center;
 }
@@ -157,34 +166,69 @@ section {
     font-size: 20px;
     display: inline-block;
     margin: 0 auto;
+    text-align: center;
 }
+/* What We Do Section End */
 
+
+/* What You Do Section Start */
 .steps {
     background-color: #fce138;
     text-align: center;
 }
 
+.step {
+    margin: 50px auto;
+    padding-bottom: 50px;
+    width: 80%;
+    border-bottom: 1px solid #39a6b2;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
 .steps h3 {
     color: #024e76;
     font-size: 40px;
+    flex: 1 30%;
 
 }
 
-.steps p {
+.step-info {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex: 2 70%;
+}
+
+.step-text {
+    flex: 12;
+}
+
+.step-text p {
     color:#39a6b2;
     font-size: 22px;
     margin-bottom: 65px;
 }
 
-.steps span {
-    font-size: 30px;
+.step-text h4 {
+    font-size: 26px;
+    line-height: 1.5;
+    color: #024e76;
 }
 
-.steps img {
-    width: 10%;
-    margin: 10px 0;
+.step-img {
+    flex: 1 12%;
+    margin-right: 20px;
 }
 
+.step-img img {
+    max-width: 100%;
+}
+/* What You Do Section End */
+
+/* Meet The Trainers Section Start */
 .trainers {
     text-align: center;
     margin-top: 50px;
@@ -237,20 +281,20 @@ section {
     font-size: 110%;
     
 }
+/* Meet The Trainers Section End */
 
 /* Reach Out Section Begins */
 .reach-out {
     color: #fce138;
     background-color: #024e76;
     text-align: center;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
 }
 
-.reach-out h2 {
-    display: block;
+.reach-out-main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 .reach-out h3 {
@@ -259,23 +303,24 @@ section {
 }
 
 .reach-out iframe {
-    margin: 0 0 0 12%;
     width: 400px;
     height: 400px;
+    margin: 3.5%;
 }
 
 .contact-form {
     vertical-align: top;
     margin: 0;
     width: 410px;
+    margin: 3.5%;
 }
 
 .reach-out div div {
     width: 410px;
     vertical-align: top;
     text-align: left;
-    margin: 30px 0 0 60px;
     color: white;
+    margin: 3.5%;
     
 }
 
