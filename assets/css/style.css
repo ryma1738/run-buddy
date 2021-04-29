@@ -1,3 +1,4 @@
+/* General Sytles Start*/
 * {
     margin: 0;
     padding: 0;
@@ -5,26 +6,36 @@
 }
 
 body {
-    /* This controls every thing in the body selector for out HTML code */
     font-family: Helvetica, Arial, sans-serif;
     color: #39a6b2;
 }
 
-.float-r {
-    float: right;
+.form-input:focus {
+    background-color: rgba(255, 255, 255, 1);
+    outline: none;
 }
 
-.float-l {
-    float: left;
+.form-input {
+    background-color: rgba(255, 255, 255, .75);
 }
+/* General Styles End*/
 
+
+/* Header Sytles Start */
 header {
     padding: 20px 35px;
-    background-color: #39a6b2;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: flex-start;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-image: url(../images/hero-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-position: 80%;
 }
 
 header h1 {
@@ -32,6 +43,7 @@ header h1 {
     font-size: 36px;
     color: #fce138;
     margin: 0;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 header a {
@@ -55,17 +67,35 @@ header nav ul li a {
     padding: 10px 15px;
     font-weight: lighter;
     font-size: 1.55vw;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
-section {
-    padding: 60px;
+/* Hover affects for Nav Start */
+header nav ul li a:hover {
+    background: #fce138;
+    color: #024e76;
+    border-radius: 15px;
+    text-shadow: none;
 }
+
+.hero-form button:hover {
+    background-color: #fce138;
+}
+
+.contact-form button:hover {
+    color: #fce138;
+    background: #39a6b2;
+}
+/* Hover Effects End*/
+/* Header Styles End*/
+
 
 /* Hero Section Start*/
 .hero {
     background-image: url("../images/hero-bg.jpg");
     background-size: cover;
-    background-position: center;
+    background-attachment: fixed;
+    background-position: 80%;
     position: relative;
     display: flex;
     flex-wrap: wrap;
@@ -84,6 +114,7 @@ section {
     color: #fce138;
     font-size: 55px;
     font-style: italic;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .hero-cta p {
@@ -99,8 +130,8 @@ section {
     background-color: #fce138;
     border: solid 3px #616161;
     margin: 3.5%;
-    
-
+    box-shadow: 0 0  10px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
 }
 
 .hero-form h3 {
@@ -119,7 +150,9 @@ section {
     padding: 7px 15px;
     margin-bottom: 15px;
     font-size: 16px;
+    border-radius: 10px;
 }
+
 .hero-form button {
     width: 125px;
     height: 40px;
@@ -128,8 +161,14 @@ section {
     font-size: 15px;
     padding:10px 20px;
     border: none;
+    border-radius: 10px;
+}
+
+section {
+    padding: 60px;
 }
 /* End Hero Section */
+
 
 /* Section Title Classes */
 .section-title {
@@ -155,6 +194,7 @@ section {
     border-color: #39a6b2;
 }
 /* Section titles End*/
+
 
 /* What We Do Section Start */
 .intro {
@@ -188,6 +228,10 @@ section {
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
+}
+
+.step:last-child {
+    border-bottom: none;
 }
 
 .steps h3 {
@@ -229,6 +273,7 @@ section {
     max-width: 100%;
 }
 /* What You Do Section End */
+
 
 /* Meet The Trainers Section Start */
 .trainers {
@@ -272,6 +317,7 @@ section {
 }
 /* Meet The Trainers Section End */
 
+
 /* Reach Out Section Begins */
 .reach-out {
     color: #fce138;
@@ -309,6 +355,7 @@ section {
     width: 100%;
     margin-bottom: 15px;
     margin-top: 5px;
+    border-radius: 10px;
 }
 
 .contact-form button {
@@ -319,6 +366,7 @@ section {
     text-align: center;
     padding: 15px 0;
     font-size: 16px;
+    border-radius: 10px;
     
 }
 
@@ -337,16 +385,6 @@ section {
     float: left;
 }
 /* Reach Out Section End */
-
-/* Dominate tags start */
-.margin-30 {
-    margin-bottom: 30px;
-}
-
-.color-yellow {
-    color: #fce138;
-}
-/* Dominate Tags End */
 
 /* Footer Section Starts*/
 footer {
@@ -376,11 +414,24 @@ footer a {
 }
 /* Footer Section Ends*/
 
+
+/* Dominate tags start */
+.margin-30 {
+    margin-bottom: 30px;
+}
+
+.color-yellow {
+    color: #fce138;
+}
+/* Dominate Tags End */
+
+
 /* Media Queries*/
 @media screen and (max-width: 980px) {
     header {
         padding-bottom: 0;
         justify-content: center;
+        position: relative;
     }
 
     header h1 {
@@ -414,6 +465,9 @@ footer a {
         flex: 0 70%;
     }
 
+    .reach-out-main h3 {
+        font-size: 25px;
+    }
     footer h2, footer div {
         text-align: center;
         width: 100%;
