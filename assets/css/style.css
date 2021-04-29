@@ -24,6 +24,7 @@ header {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    align-items: flex-start;
 }
 
 header h1 {
@@ -51,7 +52,7 @@ header nav ul {
 }
 
 header nav ul li a {
-    margin: 0 30px;
+    padding: 10px 15px;
     font-weight: lighter;
     font-size: 1.55vw;
 }
@@ -75,7 +76,8 @@ section {
     text-align: right;
     margin: 3.5%;
     position: relative;
-    width: 35%
+    width: 35%;
+    line-height: 1.2;
 }
 
 .hero-cta h2 {
@@ -131,7 +133,7 @@ section {
 
 /* Section Title Classes */
 .section-title {
-    font-size: 55px;
+    font-size: 48px;
     width: 50%;
     color: #024e76;
     margin: 0 auto 35px auto;
@@ -350,6 +352,7 @@ section {
 }
 /* Dominate Tags End */
 
+/* Footer Section Starts*/
 footer {
     background: #fce138;
     width: 100%;
@@ -374,4 +377,18 @@ footer div {
 
 footer a {
     color: #024e76;
+}
+/* Footer Section Ends*/
+
+/* Media Queries*/
+@media  and (max-width: 980px) {
+    
+}
+
+@media screen and (max-width: 768px) {
+    
+}
+
+@media screen and (max-width: 575px) {
+    
 }
